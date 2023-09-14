@@ -1,0 +1,62 @@
+.bg-img {
+    width: 100vw;
+    position: absolute;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.signin-dialog {
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    // width: 5rem;
+    // background: red;
+    top: 25%;
+    position: absolute;
+    left: 35%;
+    // border: 1px solid ;
+    border-radius: 10px;
+    background: white;
+    width: 25rem;
+}
+
+.sing-in-text {
+    align-self: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 88%;
+    margin-left: 5%;
+    height: 2rem;
+    // margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #673ab7 !important;
+    border-radius: 5px;
+}
+
+button {
+    width: 90%;
+    margin-left: 5%;
+    height: 2rem;
+    margin-bottom: 1rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.otp-div {
+    margin-left: 1.2rem;
+    margin-top: 5px;
+    font-size: small;
+    margin-bottom: 1rem;
+}
